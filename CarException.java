@@ -1,7 +1,13 @@
+package model;
 
 public class CarException extends Exception{
-    public CarException(){
-    super("Error: Not a valid input");
-}
-    
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public CarException() {
+		super("Error: Not a valid input");
+	}
+	
 }
